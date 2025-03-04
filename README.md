@@ -17,6 +17,8 @@ The cross-validation for one-leave-out-patient is provided in:
 - Classification_AU
 - Classification_euler
 - Classification_prob_eye_features
+- Classification_facial_features
+- Classification_combination_all_features
 
 The preparation of features for nested cross-validation is provided in:
 - for one record:
@@ -28,3 +30,6 @@ The preparation of features for nested cross-validation is provided in:
 	* Probabilities of euler angle-all-cross-vsalidation-loop_for_one-all.ipynb
 	* Probabilities of eye and smiling extraction-extraction-cross_all
 	* AUs single extraction-cross_all
+
+The statistical tests are provided in:
+- Statistical tests
