@@ -25,6 +25,7 @@ The preparation of features for nested cross-validation is provided in:
 	* AUs single extraction-cross_single
 	* Probabilities of euler angle-extraction-cross_single
 	* Probabilities of eye and smiling-extraction-cross_single
+ 	* Facial features based on facial landmarks-extraction-cross_single
 
 - for all records:
 	* Probabilities of euler angle extraction-cross-all
