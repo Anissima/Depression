@@ -31,6 +31,7 @@ The preparation of features for nested cross-validation is provided in:
 	* Probabilities of euler angle extraction-cross-all
 	* Probabilities of eye and smiling extraction-cross_all
 	* AUs single extraction-cross_all
+ 	* Facial features based on facial landmarks-extraction-cross_all	
 
 The statistical tests are provided in:
 - Statistical tests
