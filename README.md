@@ -27,8 +27,8 @@ The preparation of features for nested cross-validation is provided in:
 	* Probabilities of eye and smiling-extraction-cross_single
 
 - for all records:
-	* Probabilities of euler angle-all-cross-vsalidation-loop_for_one-all.ipynb
-	* Probabilities of eye and smiling extraction-extraction-cross_all
+	* Probabilities of euler angle extraction-cross-all
+	* Probabilities of eye and smiling extraction-cross_all
 	* AUs single extraction-cross_all
 
 The statistical tests are provided in:
