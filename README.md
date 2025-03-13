@@ -33,10 +33,10 @@ The preparation of features for nested cross-validation is provided in:
 	* AUs single extraction-cross_all
  	* Facial features based on facial landmarks-extraction-cross_all
 
-The nested cross-validtion with Leave-One-Day-Out is provided in:
+The nested cross-validation with Leave-One-Day-Out is provided in:
 - AU classification - nested cross-valiadation 
-- ff classification - nested cross-valiadation.ipynb
-- ff classification - nested cross-valiadation_updated.ipynb (updated)
+- ff classification - nested cross-valiadation
+- ff classification - nested cross-valiadation_updated (updated)
 
   
 The statistical tests are provided in:
