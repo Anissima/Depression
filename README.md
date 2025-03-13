@@ -36,6 +36,7 @@ The preparation of features for nested cross-validation is provided in:
 The nested cross-validtion with Leave-One-Day-Out is provided in:
 - AU classification - nested cross-valiadation 
 - ff classification - nested cross-valiadation.ipynb
+- ff classification - nested cross-valiadation_updated.ipynb (updated)
 
   
 The statistical tests are provided in:
