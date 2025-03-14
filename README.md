@@ -37,6 +37,7 @@ The nested cross-validation with Leave-One-Day-Out is provided in:
 - AU classification - nested cross-valiadation 
 - ff classification - nested cross-valiadation
 - ff classification - nested cross-valiadation_updated (updated)
+- AU classification - nested cross-valiadation_updated (updated)
 
   
 The statistical tests are provided in:
