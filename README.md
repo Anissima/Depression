@@ -20,6 +20,9 @@ The cross-validation for one-leave-out-patient is provided in:
 - Classification_facial_features
 - Classification_combination_all_features
 
+The SHAP values for the best cross-validation for one-leave-out-patient is provided in:
+- Classification_combination_all_features_SHAP
+
 The preparation of features for nested cross-validation is provided in:
 - for one record:
 	* AUs single extraction-cross_single
