@@ -43,6 +43,9 @@ The nested cross-validation with Leave-One-Day-Out is provided in:
 - AU classification - nested cross-valiadation_updated (updated)
 - combination_features - nested cross-valiadation
 
+The SHAP values for the best nested cross-validation for one-leave-day-out is provided in:
+- SHAP_combination_features - nested cross-valiadation
+
   
 The statistical tests are provided in:
 - Statistical tests
