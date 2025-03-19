@@ -42,8 +42,9 @@ The nested cross-validation with Leave-One-Day-Out is provided in:
 - ff classification - nested cross-valiadation_updated (updated)
 - AU classification - nested cross-valiadation_updated (updated)
 - combination_features - nested cross-valiadation
+- Euler classification - nested cross-valiadation_updated
 
-The SHAP values for the best nested cross-validation for one-leave-day-out is provided in:
+The SHAP values for the nested cross-validation with combined features for one-leave-day-out is provided in:
 - SHAP_combination_features - nested cross-valiadation
 
   
