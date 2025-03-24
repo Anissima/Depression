@@ -52,6 +52,7 @@ The SHAP values for the nested cross-validation with combined features for one-l
 The results of the classification in the tables likewise identified valuable features for each modality are gathered in the results folder:
 - results_universal -> the outcomes for the universal model with Leave-One-Patient-Out for each modality and multimodality
 - results_nested_cv -> the outcomes for the nested cross-validation with Leave-One-Day-Out for each modality and multimodality
+- universal_model_features -> the most significant features identified with the usage of pyMRMR and pyHSICLasso libraries, for the scenario with the universal model, each modality and multimodality 
   
 The statistical tests are provided in:
 - Statistical tests
