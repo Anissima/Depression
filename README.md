@@ -49,10 +49,17 @@ The SHAP values for the nested cross-validation with combined features for one-l
 - SHAP_combination_features - nested cross-valiadation
 - SHAP Euler classification - nested cross-valiadation
 
-The results of the classification in the tables likewise identified valuable features for each modality are gathered in the results folder:
+The results of the classification in the tables, SHAP values, likewise identified valuable features for each modality are gathered in the results folder:
 - results_universal -> the outcomes for the universal model with Leave-One-Patient-Out for each modality and multimodality
 - results_nested_cv -> the outcomes for the nested cross-validation with Leave-One-Day-Out for each modality and multimodality
-- universal_model_features -> the most significant features identified with the usage of pyMRMR and pyHSICLasso libraries, for the scenario with the universal model, each modality and multimodality 
+- universal_model_features -> the most significant features identified with the usage of pyMRMR and pyHSICLasso libraries, for the scenario with the universal model, each modality and multimodality
+- hybrid_model_feature -> the most significant features identified with the usage of pyMRMR and pyHSICLasso libraries, for the scenario with the hybrid model, each modality and multimodality
+- SHAP values:
+	-  shap_combined_features_RF_patient_out_predict.pdf -> the SHAP values for the best universal model with Leave-One-Patient-Out, multimodal approach and Random Forest classifier
+	-  shap_combined_features_RF_smote_patient_out_predict.pdf -> the SHAP values for the best universal model with Leave-One-Patient-Out, multimodal approach and Random Forest classifier and SMOTE
+ 	-  shap_combined_features_knn_smote_nest_predict.pdf -> the SHAP values for the best hybrid model with Leave-One-Day-Out, multimodal approach and k-NN classifier and SMOTE
+  	-  shap_euler_knn_nest_predict.pdf -> the SHAP values for the second best hybrid model with Leave-One-Day-Out, Euler angles-related features, k-NN classifier
+  	-  shap_euler_knn_smote_nest_predict.pdf -> the SHAP values for the best hybrid model with Leave-One-Day-Out, Euler angles-related features, k-NN classifier and SMOTE
   
 The statistical tests are provided in:
 - Statistical tests
