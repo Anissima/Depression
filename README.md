@@ -51,6 +51,7 @@ The SHAP values for the nested cross-validation with combined features for one-l
 
 The ROC curves and Precision-Recall curves are generated for the multimodal approaches in:
 - combination_features - nested cross-valiadation-ROC (for hybrid model)
+- Classification_combination_all_features_ROC_universal (for universal model)
 
 
 The results of the classification in the tables, SHAP values, likewise identified valuable features for each modality are gathered in the results folder:
@@ -61,6 +62,8 @@ The results of the classification in the tables, SHAP values, likewise identifie
 - ROC curves and Precision-Recall curves:
 	- precision_recall_multi_nested_cv.pdf -> precision-recall curve for the multimdality and hybrid model
  	- ROC_multi_nested_cv.pdf -> ROC curve for the multimodality and hybrid model
+ 	- ROC_universal.pdf -> ROC curve for the multimodality and universal model
+ 	- precision_recall_multi_universal_cv.pdf -> precision-recall curve for the multimdality and universal model
 - SHAP values:
 	-  shap_combined_features_RF_patient_out_predict.pdf -> the SHAP values for the best universal model with Leave-One-Patient-Out, multimodal approach and Random Forest classifier
 	-  shap_combined_features_RF_smote_patient_out_predict.pdf -> the SHAP values for the best universal model with Leave-One-Patient-Out, multimodal approach and Random Forest classifier and SMOTE
