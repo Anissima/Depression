@@ -50,7 +50,7 @@ The SHAP values for the nested cross-validation with combined features for one-l
 - SHAP Euler classification - nested cross-valiadation
 
 The ROC curves and Precision-Recall curves are generated for the multimodal approaches in:
-- combination_features - nested cross-valiadation-ROC (for hybrid model)
+- combination_features - nested cross-valiadation-AUC-PR (for hybrid model)
 - Classification_combination_all_features_ROC_universal (for universal model)
 
 
